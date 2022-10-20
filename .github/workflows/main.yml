@@ -1,0 +1,13 @@
+name: Maven CD
+
+on: [push]
+ 
+jobs:
+ deploy:
+  runs-on: [self-hosted,linux]
+  steps:
+    - name: checkout
+      uses: actions/checkout@v3
+    - name: Run build script
+      run: |
+          cd ~/.ssh

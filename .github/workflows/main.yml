@@ -11,3 +11,5 @@ jobs:
     - name: Run build script
       run: |
           echo "success"
+          ls
+          pwd

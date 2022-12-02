@@ -15,4 +15,5 @@ jobs:
           pwd
           echo "testing for documentation"
           echo "revert testing"
+          echo "test"
          
